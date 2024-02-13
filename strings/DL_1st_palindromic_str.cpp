@@ -46,3 +46,16 @@ SC: O(1);
     return "";
     }
 };
+
+/* ABOUT REVERSE FUNCTION
+The reverse function is a built-in function in C++ that is used to reverse the order of elements in a container, such as a string or a vector. When you call reverse(beginIterator, endIterator), it reverses the elements in the range defined by the iterators beginIterator (inclusive) and endIterator (exclusive).
+
+Here's how it works:
+The beginIterator points to the beginning of the range, and the endIterator points to the element just beyond the end of the range.
+It swaps the elements pointed to by the iterators, moving inward from both ends of the range until they meet in the middle.
+After the function completes, the elements within the specified range are reversed.
+
+
+The reverse function is available as part of the C++ Standard Library and is defined in the <algorithm> header. It operates on various containers such as strings, vectors, arrays, etc., 
+    but it doesn't have its own data structure. Instead, it manipulates the elements of the container directly using iterators.
+*/
